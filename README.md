@@ -1,1 +1,1 @@
-Generate summary of any paragraph
+Generate summary of any paragraph accessible on internet
