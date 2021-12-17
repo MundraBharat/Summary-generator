@@ -4,7 +4,7 @@ import re
 import nltk
 import heapq
 
-scraped_data = urllib.request.urlopen('https://en.wikipedia.org/wiki/Artificial_intelligence')
+scraped_data = urllib.request.urlopen('<target URL>')
 article = scraped_data.read()
 
 parsed_article = bs.BeautifulSoup(article,'lxml')
